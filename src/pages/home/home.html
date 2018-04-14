@@ -1,14 +1,40 @@
 <ion-header>
   <ion-navbar>
-    <ion-title>
-      Ionic Blank
-    </ion-title>
+    <ion-title text-center text-capitalize>Guess the number</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
-  The world is your oyster.
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
-  </p>
+
+  <ion-grid>
+    <ion-row align-items-center id="play-container">
+      <ion-col padding>
+
+        <div text-center>
+          <button id="play-btn" ion-button icon-start round (click)="onGoToGamePage()">
+            <ion-icon name="play"></ion-icon>
+            Play
+          </button>
+        </div>
+
+      </ion-col>
+    </ion-row>
+
+    <ion-row padding>
+      <ion-col>
+        <div text-center>
+          <h1>How to play?</h1>
+          <h4>Make 3 correct guesses to win.</h4>
+        </div>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
+
+<ion-footer>
+  <div text-center>
+    <p>Yusuf Shakeel</p>
+    <p>https://github.com/yusufshakeel</p>
+  </div>
+</ion-footer>

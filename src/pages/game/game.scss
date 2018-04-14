@@ -1,0 +1,29 @@
+page-game {
+  #btn-left, #btn-right {
+    width: 100%;
+    height: 120px;
+    font-size: 3em;
+    text-align: center;
+  }
+
+  .guess-message {
+    font-size: 3em;
+  }
+
+  #right-answer {
+    color: green;
+  }
+
+  #wrong-answer {
+    color: red;
+  }
+
+  #score-container {
+    margin-top: 30px;
+
+    .score-content {
+      font-size: 3em;
+    }
+
+  }
+}
